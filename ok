@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .biodata {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .biodata h1 {
+            text-align: center;
+            color: #333;
+        }
+        .biodata p {
+            margin: 10px 0;
+            color: #555;
+        }
+        .biodata label {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="biodata">
+    <h1>Biodata</h1>
+    <p><label>Nama:</label> John Doe</p>
+    <p><label>Asal Kota:</label> Jakarta</p>
+    <p><label>Tanggal Lahir:</label> 1 Januari 1990</p>
+    <p><label>Jenis Kelamin:</label> Laki-laki</p>
+    <p><label>Pekerjaan:</label> Pengembang Web</p>
+    <p><label>Hobi:</label> Membaca, Bermain Musik, Bersepeda</p>
+    <p><label>Alamat:</label> Jl. Sudirman No. 123, Jakarta</p>
+    <p><label>Email:</label> johndoe@example.com</p>
+    <p><label>Telepon:</label> 08123456789</p>
+</div>
+
+</body>
+</html>
